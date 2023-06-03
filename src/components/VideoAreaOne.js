@@ -13,13 +13,7 @@ const VideoAreaOne = () => {
       >
         <div className='video-thumb-wrap '>
           <img src='assets/img/video/1.png' alt='Transpro' />
-          <span
-            className='video-play-btn cursor-pointer'
-            data-effect='mfp-zoom-in'
-            onClick={() => setOpen(true)}
-          >
-            <FaPlay />
-          </span>
+         
         </div>
 
         <div className='container'>
@@ -53,13 +47,7 @@ const VideoAreaOne = () => {
         </div>
       </div>
       {/*video-area end*/}
-      <ModalVideo
-        channel='youtube'
-        autoplay
-        isOpen={isOpen}
-        videoId='XM6kTQPzzpQ'
-        onClose={() => setOpen(false)}
-      />
+      
     </>
   );
 };

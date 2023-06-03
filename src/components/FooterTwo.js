@@ -38,7 +38,7 @@ const FooterTwo = () => {
             </div>
             <div className='col-xl-4 col-lg-6'>
               <div className='widget widget_nav_menu'>
-                <h4 className='widget-title'>USEFULL LINKS</h4>
+                <h4 className='widget-title'>USEFUL LINKS</h4>
                 <ul>
                   <li>
                     <Link to='/'>

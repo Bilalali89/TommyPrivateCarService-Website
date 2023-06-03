@@ -17,7 +17,7 @@ const BannerTwo = () => {
     infinite: true,
     fade: true,
     speed: 1000,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 0,
     nextArrow: <SampleNextArrow />,
@@ -39,12 +39,10 @@ const BannerTwo = () => {
                     <div className='col-lg-8'>
                       <div className='banner-inner style-white'>
                         <h1 className='b-animate-2 title'>
-                          FAST AND RELIABLE MOVERS
+                          Tommy's Private Car Service
                         </h1>
                         <p className='b-animate-3 content'>
-                          Professionally strategize stand-alone functionalities
-                          and cooperative total linkage. Objectively predominate
-                          virtual quality vectors with orthogonal.
+                        I am Tommy Dunmore and I am committed to the perfect ride for each and every passenger.
                         </p>
                         <div className='btn-wrap'>
                           <Link
@@ -71,34 +69,33 @@ const BannerTwo = () => {
             <div>
               <div
                 className='item'
-                style={{ background: "url('/assets/img/banner/2.png')" }}
+                style={{ background: "url('/assets/img/banner/1.png')" }}
               >
                 <div className='container'>
                   <div className='row'>
                     <div className='col-lg-8'>
                       <div className='banner-inner style-white'>
                         <h1 className='b-animate-2 title'>
-                          FAST AND RELIABLE MOVERS
+                         SCHEDULE A PICKUP
                         </h1>
                         <p className='b-animate-3 content'>
-                          Professionally strategize stand-alone functionalities
-                          and cooperative total linkage. Objectively predominate
-                          virtual quality vectors with orthogonal.
+                        I am Tommy Dunmore and I am committed to the perfect ride for each and every passenger.
                         </p>
                         <div className='btn-wrap'>
-                          <Link
+                        <Link
                             className='btn btn-base b-animate-4'
-                            to='/service'
+                            to='https://book.mylimobiz.com/v4/tommyspcs'
+                            target='_blank'
                           >
                             {" "}
-                            Explore The Services
+                            Book Online
                           </Link>
-                          <Link
+                          {/* <Link
                             className='btn btn-white b-animate-4'
                             to='/contact'
                           >
                             Contact Us
-                          </Link>
+                          </Link> */}
                         </div>
                       </div>
                     </div>

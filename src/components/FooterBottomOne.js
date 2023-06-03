@@ -10,7 +10,7 @@ const FooterBottomOne = () => {
             <div className='col-lg-6 text-lg-start text-center'>
               <div className='copyright-area'>
                 <p>
-                  © Copyright 2022 By <a href='#'>TransPro</a>, All right
+                  © Copyright 2023 By Tommy's Private Car Service, All right
                   reserved.
                 </p>
               </div>
