@@ -26,7 +26,7 @@ const ContactInner = () => {
       .then(
         (result) => {
           if (result.text === "OK") {
-            toast.success("Massage Sent Successfully!");
+            toast.success("Message Sent Successfully!");
             form.current[0].value = "";
             form.current[1].value = "";
             form.current[2].value = "";
@@ -35,7 +35,7 @@ const ContactInner = () => {
         },
         (error) => {
           if (error.text !== "OK") {
-            toast.success("Massage Not Sent!");
+            toast.success("Message Not Sent!");
           }
         }
       );
@@ -105,7 +105,7 @@ const ContactInner = () => {
                         <FaPencilAlt />
                       </label>
                       <textarea
-                        placeholder='Write massage'
+                        placeholder='Write message'
                         defaultValue={""}
                         id='massage'
                       />
