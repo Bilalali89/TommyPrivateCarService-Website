@@ -34,7 +34,7 @@ const AboutOne = () => {
                         {({ isVisible }) =>
                           isVisible && (
                             <h1>
-                              <CountUp delay={0} start={0} end={44} />
+                              <CountUp delay={0} start={0} end={10} />
                             </h1>
                           )
                         }
@@ -57,62 +57,7 @@ const AboutOne = () => {
                     <p className='content px-0'>
                     They say that nothing worth doing is easy. Like every one of us, I&apos;ve had my bumps in the road. But if you ask me, I&apos;ll always tell you that I wouldn&apos;t change a thing. Why? Because throughout my journey I&apos;ve honed my skills and proven that my services get results in the real world. So today, you can benefit from my years of experience.
                     </p>
-                    {/* <div className='row'>
-                      <div className='col-xl-6 col-lg-12 col-md-6'>
-                        <ul className='list-inner-wrap mb-mb-0 mb-3 mb-lg-3 mb-xl-0'>
-                          <li>
-                            <img
-                              src='./assets/img/icon/check.png'
-                              alt='Transpro'
-                            />{" "}
-                            Unlimited Revisions
-                          </li>
-                          <li>
-                            <img
-                              src='./assets/img/icon/check.png'
-                              alt='Transpro'
-                            />
-                            Best Fitness Excercise
-                          </li>
-                          <li>
-                            <img
-                              src='./assets/img/icon/check.png'
-                              alt='Transpro'
-                            />
-                            Combine Fitness and
-                          </li>
-                          <li>
-                            <img
-                              src='./assets/img/icon/check.png'
-                              alt='Transpro'
-                            />
-                            Best Solutions
-                          </li>
-                        </ul>
-                      </div>
-                      <div className='col-xl-6 col-lg-12 col-md-6 align-self-center'>
-                        <div className='thumb'>
-                          <img src='./assets/img/about/3.png' alt='Transpro' />
-                        </div>
-                      </div>
-                    </div>
-                    <div className='btn-wrap'>
-                      <Link className='btn btn-base' to='/about'>
-                        ABOUT MORE
-                      </Link>
-                      <div className='author-wrap'>
-                        <div className='thumb'>
-                          <img src='./assets/img/about/4.png' alt='Transpro' />
-                        </div>
-                        <div className='details'>
-                          <img
-                            src='./assets/img/about/signature.png'
-                            alt='Transpro'
-                          />
-                          <p>CEO, Of Company</p>
-                        </div>
-                      </div>
-                    </div> */}
+                    
                   </div>
                 </div>
               </div>

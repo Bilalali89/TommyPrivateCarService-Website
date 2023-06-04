@@ -37,7 +37,7 @@ const AboutTwo = () => {
                         {({ isVisible }) =>
                           isVisible && (
                             <h1>
-                              <CountUp delay={0} start={0} end={44} />
+                              <CountUp delay={0} start={0} end={10} />
                             </h1>
                           )
                         }
