@@ -61,10 +61,10 @@ const TestimonialTwo = () => {
               <div className='section-title text-center mb-0'>
                 <h4 className='subtitle style-2'>TESTIMONIALS</h4>
                 <h2 className='title'>OUR CLIENT&apos;S FEEDBACK</h2>
-                <p className='content'>
+                {/* <p className='content'>
                   Dramatically enhance interactive metrics for reliable
                   services. Proactively unleash fully researched e-commerce.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
